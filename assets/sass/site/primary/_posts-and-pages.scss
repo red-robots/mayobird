@@ -1,0 +1,96 @@
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+section.hero {
+	width: 100%;
+	float: left;
+	margin: 20px auto;
+	color: #fff;
+	text-align: center;
+
+	@media screen and (min-width: $tabwidth) {
+		margin: 80px auto;
+	}
+	.hero-gal {
+		width: 100%;
+		float: left;
+		margin: 30px 0 0 0;
+	}
+	.hero-gal-img {
+		width: 30%;
+		margin: 1.5%;
+		float: left;
+		img {
+			width: 100%;
+		}
+	}
+
+	h2 {
+		font: {
+			size: 24px;
+			family: $font__main;
+			weight: 300;
+		}
+		letter-spacing: 3px;
+		margin: 15px 0 10px 0;
+		@media screen and (min-width: $tabwidth) {
+			font-size: 30px;
+		}
+	}
+	h3 {
+		font: {
+			size: 20px;
+			family: $font__secondary;
+		}
+		margin:0;
+		@media screen and (min-width: $tabwidth) {
+			font-size: 24px;
+		}
+	}
+
+}
+section.content {
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid $color-dark-gray;
+	float: left;
+	padding: 20px;
+	text-align: center;
+	@media screen and (min-width: $tabwidth) {
+		padding: 30px;
+		margin: 30px 0 0 0;
+	}
+	@media screen and (min-width: $midwidth) {
+		padding: 50px;
+		margin: 40px 0 0 0;
+	}
+	@media screen and (min-width: $deskwidth) {
+		padding: 70px;
+		margin: 50px 0 0 0;
+	}
+}

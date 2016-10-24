@@ -133,7 +133,7 @@ $sitemap = get_field('sitemap_link', 'option');
 
 wp_footer(); 
 
-the_field('google_analytics', 'opiton');
+the_field('google_analytics', 'option');
 
 ?>
 

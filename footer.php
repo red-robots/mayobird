@@ -21,6 +21,11 @@ $facebook = get_field('facebook_link', 'option');
 $google_analytics = get_field('google_analytics', 'option');
 $sitemap = get_field('sitemap_link', 'option');
 
+$packhouse_link = get_field('packhouse_link', 'option');
+$summit_room_link = get_field('summit_room_link', 'option');
+$joe_and_nosh_link = get_field('joe_and_nosh_link', 'option');
+$treehouse_kitchen_link = get_field('treehouse_kitchen_link', 'option');
+
 ?>
 
 	</div><!-- #content -->
@@ -53,12 +58,15 @@ $sitemap = get_field('sitemap_link', 'option');
 						</li>
 					</div>
 					<div class="food-truck-wrap">
-						<div class="food-truck-words">
-							RESERVE OUR FOOD TRUCK FOR YOUR NEXT EVENT
-						</div>
-						<div class="food-truck">
-							<img src="<?php bloginfo('template_url'); ?>/images/food-truck.png">
-						</div>
+						<a href="<?php bloginfo('url'); ?>/contact">
+							<div class="food-truck-words">
+								RESERVE OUR FOOD TRUCK <br>FOR YOUR NEXT EVENT
+							</div>
+							<div class="food-truck">
+								
+								<img src="<?php bloginfo('template_url'); ?>/images/food-truck.png">
+							</div>
+						</a>
 					</div>
 				</div>
 			</section>
@@ -95,7 +103,7 @@ $sitemap = get_field('sitemap_link', 'option');
 				<div class="img-center">
 					<h3 class="center">A PART OF</h3>
 					<div class="rollover">
-						<a href="#">
+						<a href="<?php echo $treehouse_kitchen_link; ?>">
 							<img alt="Tree House Kitchen" title="Tree House Kitchen" src="<?php bloginfo('template_url'); ?>/images/tree-house-kitchen.png">
 						</a>
 					</div><!-- roll over -->
@@ -103,22 +111,22 @@ $sitemap = get_field('sitemap_link', 'option');
 			</section>
 			<div class="group-item">
 				<div class="img-summit rollover">
-					<a href="#">
+					<a href="<?php echo $summit_room_link; ?>">
 						<img alt="Summit Room" title="Summit Room" src="<?php bloginfo('template_url'); ?>/images/summit-room.png">
 					</a>
 				</div>
 			</div>
 			<div class="group-item ">
 				<div class="img-packhouse rollover">
-					<a href="#">
+					<a href="<?php echo $packhouse_link; ?>">
 						<img alt="Packhouse" title="Packhouse" src="<?php bloginfo('template_url'); ?>/images/packhouse.png">
 					</a>
 				</div>
 			</div>
 			<div class="group-item ">
-				<div class="img-mayo rollover">
-					<a href="#">
-						<img alt="Mayobird" title="Mayobird" src="<?php bloginfo('template_url'); ?>/images/mayobird.png">
+				<div class="img-joe rollover">
+					<a href="<?php echo $joe_and_nosh_link; ?>">
+						<img alt="Joe and Nosh" title="Joe and Nosh" src="<?php bloginfo('template_url'); ?>/images/joe-and-nosh.png">
 					</a>
 				</div>
 			</div>

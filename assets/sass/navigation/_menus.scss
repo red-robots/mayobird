@@ -99,6 +99,16 @@
 		display: block;
 		text-decoration: none;
 		color: $color-orange;
+		padding: 0 0 10px 0;
+
+		&:hover, &.active {
+			background: {
+				image: url(images/nav-swoosh.png);
+				repeat: no-repeat;
+				position: bottom center;
+				size: contain;
+			}
+		}
 	}
 
 	.current_page_item > a,

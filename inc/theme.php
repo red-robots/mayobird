@@ -14,9 +14,21 @@ function my_login_logo() { ?>
 <style type="text/css">
   body.login div#login h1 a {
   	background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png);
-  	background-size: 327px 67px;
-  	width: 327px;
-  	height: 67px;
+  	background-size: 280px 206px;
+  	width: 280px;
+  	height: 206px;
+  }
+  body.login, body.login form {
+    background-color: #6dc7be;
+  }
+  .wp-core-ui .button-primary {
+    background-color: #DD5830 !important;
+    border: 1px solid #DD5830 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  .login label {
+    color: #fff !important;
   }
 </style>
 <?php }

@@ -469,3 +469,34 @@ section.header-info {
 		}
 	}
 }
+section.download {
+	width: 100%;
+	float: left;
+	text-align: center;
+	clear: both;
+	margin: 20px auto;
+}
+.download-button {
+	width: auto;
+	display: inline-block;
+	a {
+		width: auto;
+		display: block;
+		background-color: #fff;
+		color: $color-orange;
+		border: 2px solid $color-teal;
+		padding: 10px 20px;
+		border-radius: 5px;
+		@include transition(all ease .3s);
+		text-decoration: none;
+
+
+		&:hover {
+			background-color: $color-dark-gray;
+			color: #fff;
+			border: 2px solid $color-dark-gray;
+		}
+	}
+	
+
+}

@@ -1479,7 +1479,7 @@ section.header-info .social{width:100%}
 .food-truck-wrap a{display:inline-block;-webkit-transition:all ease .3s;transition:all ease .3s}
 .food-truck-wrap a:hover{background-color:rgba(255,255,255,0.2)}
 section.download{width:100%;float:left;text-align:center;clear:both;margin:20px auto}
-.download-button{width:auto;display:inline-block}
+.download-button{width:auto;display:inline-block;font-family:"Oswald",sans-serif;font-size:18px}
 .download-button a{width:auto;display:block;background-color:#fff;color:#dd5830;border:2px solid #6dc7be;padding:10px 20px;border-radius:5px;-webkit-transition:all ease .3s;transition:all ease .3s;text-decoration:none}
 .download-button a:hover{background-color:#444;color:#fff;border:2px solid #444}
 .sticky{display:block}

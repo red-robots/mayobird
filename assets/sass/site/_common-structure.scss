@@ -479,6 +479,10 @@ section.download {
 .download-button {
 	width: auto;
 	display: inline-block;
+	font: {
+		family: $font__main;
+		size: 18px;
+	}
 	a {
 		width: auto;
 		display: block;

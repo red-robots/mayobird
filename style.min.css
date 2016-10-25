@@ -1414,7 +1414,7 @@ div{overflow-wrap:break-word;word-wrap:break-word;-ms-word-break:break-all;word-
 }@media screen and (min-width:1250px){.footer-top{top:-120px}
 }@media screen and (min-width:1400px){.footer-top{top:-130px}
 }.footer-top img{width:100%;float:left}
-footer.site-footer{width:100%;background-color:#6dc7be;position:relative;float:left;padding:40px 0;color:#444}
+footer.site-footer{width:100%;background-color:#6dc7be;position:relative;float:left;padding:40px 0;color:#444;font-family:"Raleway",sans-serif}
 footer.site-footer a{color:#444}
 footer.site-footer h1,footer.site-footer h2,footer.site-footer h3{font-family:"Oswald",sans-serif;font-weight:400;letter-spacing:3px}
 .foot-col{font-size:18px;font-weight:300}

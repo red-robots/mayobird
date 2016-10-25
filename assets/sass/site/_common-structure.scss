@@ -163,6 +163,9 @@ footer.site-footer {
 	float: left;
 	padding: 40px 0;
 	color: $color-dark-gray;
+	font: {
+		family: $font__secondary;
+	}
 	a {
 		color: $color-dark-gray;
 	}

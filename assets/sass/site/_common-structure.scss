@@ -1,20 +1,20 @@
 
 div {
 	/* These are technically the same, but use both */
-	overflow-wrap: break-word;
-	word-wrap: break-word;
+	overflow-wrap: keep-word;
+	word-wrap: keep-word;
 
-	-ms-word-break: break-all;
+	-ms-word-break: keep-all;
 	/* This is the dangerous one in WebKit, as it breaks things wherever */
-	word-break: break-all;
+	word-break: keep-all;
 	/* Instead use this non-standard one: */
-	word-break: break-word;
+	word-break: keep-word;
 
 	/* Adds a hyphen where the word breaks, if supported (No Blink) */
-	-ms-hyphens: auto;
-	-moz-hyphens: auto;
-	-webkit-hyphens: auto;
-	hyphens: auto;
+	-ms-hyphens: none;
+	-moz-hyphens: none;
+	-webkit-hyphens: none;
+	hyphens: none;
 }
 .clear {clear: both;}
 .wrapper {
@@ -312,7 +312,7 @@ footer.site-footer {
 	margin: 0 auto 30px auto;
 	@media screen and (min-width: $tabwidth) {
 		width: 24%;
-		margin: 0;
+		margin: 3% 0 0 0;
 		float: left;
 	}
 	.img-summit {
@@ -328,7 +328,7 @@ footer.site-footer {
 		margin: 0 auto 50px auto;
 		@media screen and (min-width: $tabwidth) {
 			width: 100%;
-			margin: 15% auto 0 auto;
+			margin: 20% auto 0 auto;
 		}
 	}
 	.img-mayo {
@@ -341,7 +341,7 @@ footer.site-footer {
 	}
 	.img-joe {
 		width: 75%;
-		margin: 0 0 50px 15%;
+		margin: 20px 0 50px 15%;
 		@media screen and (min-width: $tabwidth) {
 			width: 70%;
 			float: left;
@@ -349,6 +349,15 @@ footer.site-footer {
 	}
 
 
+}
+.rollover-tree {
+	img {
+		filter: brightness(15%) invert(0) sepia(100%);
+		@include transition(all ease .3s);
+		&:hover {
+			filter: none;
+		}
+	}
 }
 .rollover {
 	img {
@@ -503,4 +512,16 @@ section.download {
 	}
 	
 
+}
+.creds {
+	width: 100%;
+	float: left;
+	text-align: center;
+
+	@media screen and (min-width: $tabwidth) {
+		text-align: right;
+	}
+}
+.sitemap {
+	ul,li{margin: 0;padding: 0;list-style: none;}
 }

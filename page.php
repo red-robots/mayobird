@@ -22,7 +22,17 @@ get_header(); ?>
 
 			<section class="content entry-content">
 				<h1><?php the_title(); ?></h1>
-				<?php the_content(); ?>
+				<?php 
+
+				the_content(); 
+
+				if(is_page('sitemap')) { ?>
+					<div class="sitemap">
+						<?php wp_nav_menu( array( 'theme_location' => 'sitemap') ); ?>
+					</div>
+					<?php } ?>
+
+				?>
 			</section>
 
 			<?php endwhile; // End of the loop.

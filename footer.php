@@ -102,7 +102,7 @@ $treehouse_kitchen_link = get_field('treehouse_kitchen_link', 'option');
 				
 				<div class="img-center">
 					<h3 class="center">A PART OF</h3>
-					<div class="rollover">
+					<div class="rollover-tree">
 						<a href="<?php echo $treehouse_kitchen_link; ?>">
 							<img alt="Tree House Kitchen" title="Tree House Kitchen" src="<?php bloginfo('template_url'); ?>/images/tree-house-kitchen.png">
 						</a>
@@ -132,6 +132,10 @@ $treehouse_kitchen_link = get_field('treehouse_kitchen_link', 'option');
 			</div>
 			
 		</div><!-- wrapper -->
+		<div class="creds">
+		<div class="wrapper">
+			<?php echo '<a href="'.$sitemap.'">sitemap</a> - site by <a href="http://bellaworksweb.com">bellaworks</a>'; ?>
+		</div></div>
 	</footer><!-- #colophon -->
 
 

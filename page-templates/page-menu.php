@@ -9,13 +9,17 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<?php
-			while ( have_posts() ) : the_post(); ?>
+			while ( have_posts() ) : the_post(); 
+
+			$menu = get_field('menu_pdf');
+
+			?>
 
 			<section class="content entry-content">
 				<h1><?php the_title(); ?></h1>
 				<section class="download">
 					<div class="download-button">
-						<a href="">Download PDF</a>
+						<a href="<?php echo $menu; ?>">Download PDF</a>
 					</div>
 				</section>
 				

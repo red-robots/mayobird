@@ -3,6 +3,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .entry-content {
+	text-align: left;
 	font: {
 		size: 18px;
 		weight: 400;
@@ -18,8 +19,12 @@ h1, h2, h3, h4, h5, h6 {
 		width: auto;
 		display: inline-block;
 		border-bottom: 3px solid $color-teal;
-		margin: 0 0 15px 0;
+		margin: 0 auto 15px auto;
 		text-transform: uppercase;
 
 	}
+}
+header.titles {
+	width: 100%;
+	text-align: center;
 }

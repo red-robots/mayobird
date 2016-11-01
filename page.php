@@ -21,7 +21,11 @@ get_header(); ?>
 			while ( have_posts() ) : the_post(); ?>
 
 			<section class="content entry-content">
-				<h1><?php the_title(); ?></h1>
+
+				<header class="titles">
+					<h1><?php the_title(); ?></h1>
+				</header>
+				
 				<?php 
 
 				the_content(); 

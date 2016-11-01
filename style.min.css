@@ -1229,8 +1229,9 @@ td,th{padding:0}
 button:focus{outline:0}
 body,button,input,select,textarea{color:#404040;font-family:"Oswald",sans-serif;font-size:16px;font-size:1rem;line-height:1.5}
 h1,h2,h3,h4,h5,h6{clear:both}
-.entry-content{font-size:18px;font-weight:400;font-family:"Raleway",sans-serif}
-.entry-content h1{font-size:30px;font-weight:300;font-family:"Oswald",sans-serif;letter-spacing:3px;width:auto;display:inline-block;border-bottom:3px solid #6dc7be;margin:0 0 15px 0;text-transform:uppercase}
+.entry-content{text-align:left;font-size:18px;font-weight:400;font-family:"Raleway",sans-serif}
+.entry-content h1{font-size:30px;font-weight:300;font-family:"Oswald",sans-serif;letter-spacing:3px;width:auto;display:inline-block;border-bottom:3px solid #6dc7be;margin:0 auto 15px auto;text-transform:uppercase}
+header.titles{width:100%;text-align:center}
 p{margin-bottom:1.5em}
 dfn,cite,em,i{font-style:italic}
 blockquote{margin:0 1.5em}
@@ -1510,7 +1511,7 @@ section.contact .map iframe{width:100%}
 @media screen and (min-width:760px){section.contact .contact-info{width:45%}
 }section.contact .item{width:100%;float:left;margin:0 0 20px 0;text-align:left}
 section.contact .contact-wrap{width:100%;float:left}
-section.content{width:100%;background-color:#fff;border:1px solid #444;float:left;padding:20px;text-align:center}
+section.content{width:100%;background-color:#fff;border:1px solid #444;float:left;padding:20px}
 @media screen and (min-width:760px){section.content{padding:30px;margin:30px 0 0 0}
 }@media screen and (min-width:900px){section.content{padding:50px;margin:40px 0 0 0}
 }@media screen and (min-width:1250px){section.content{padding:70px;margin:50px 0 0 0}

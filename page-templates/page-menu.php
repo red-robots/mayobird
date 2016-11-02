@@ -16,7 +16,9 @@ get_header(); ?>
 			?>
 
 			<section class="content entry-content">
-				<h1><?php the_title(); ?></h1>
+				<header class="titles">
+					<h1><?php the_title(); ?></h1>
+				</header>
 				<section class="download">
 					<div class="download-button">
 						<a href="<?php echo $menu; ?>">Download PDF</a>

@@ -26,11 +26,16 @@ $google_analytics = get_field('google_analytics', 'option');
 			while ( have_posts() ) : the_post(); 
 			
 			$map = get_field('map');
+			$optImage = get_field('optional_image_below_map');
+			$size = 'large';
 
 			?>
 
 			<section class="content entry-content">
-				<h1><?php the_title(); ?></h1>
+				
+				<header class="titles">
+					<h1><?php the_title(); ?></h1>
+				</header>
 				
 
 				<section class="contact">
@@ -59,7 +64,13 @@ $google_analytics = get_field('google_analytics', 'option');
 
 						<div class="map">
 							<?php echo $map; ?>
+
 						</div>
+						<?php if( $optImage != ' ') { ?>
+							<div class="optional-image">
+							<?php echo wp_get_attachment_image( $optImage, $size ); ?>
+							</div>
+						<?php } ?>
 					</div><!-- contact wrap -->
 				</section>
 

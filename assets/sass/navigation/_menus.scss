@@ -94,6 +94,17 @@
 		&:hover > a,
 		&.focus > a {
 		}
+
+		&.events {
+			a:hover, a.active {
+				background: {
+					image: url(images/3.png) !important;
+					repeat: no-repeat;
+					position: bottom center;
+					size: contain;
+				}
+			}
+		}
 	}
 	a {
 		display: block;

@@ -51,7 +51,7 @@ $treehouse_kitchen_link = get_field('treehouse_kitchen_link', 'option');
 							<i class="fa fa-facebook-square" aria-hidden="true"><a href="<?php echo $facebook; ?>"></a></i>
 						</li>
 						<li class="facebook">
-							<i class="fa fa-instagram" aria-hidden="true"><a href="<?php echo $instgram; ?>"></a></i>
+							<i class="fa fa-instagram" aria-hidden="true"><a href="<?php echo $instagram; ?>"></a></i>
 						</li>
 						<li class="facebook">
 							<i class="fa fa-twitter-square" aria-hidden="true"><a href="<?php echo $twitter; ?>"></a></i>

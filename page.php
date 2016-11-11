@@ -36,7 +36,6 @@ get_header(); ?>
 					</div>
 					<?php } ?>
 
-				?>
 			</section>
 
 			<?php endwhile; // End of the loop.

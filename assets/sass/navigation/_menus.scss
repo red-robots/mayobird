@@ -97,11 +97,13 @@
 
 		&.events {
 			a:hover, a.active {
-				background: {
-					image: url(images/3.png) !important;
-					repeat: no-repeat;
-					position: bottom center;
-					size: contain;
+				@media screen and (min-width: $midwidth) {
+					background: {
+						image: url(images/3.png) !important;
+						repeat: no-repeat;
+						position: bottom center;
+						size: contain;
+					}
 				}
 			}
 		}
@@ -113,11 +115,13 @@
 		padding: 0 0 10px 0;
 
 		&:hover, &.active {
-			background: {
-				image: url(images/nav-swoosh.png);
-				repeat: no-repeat;
-				position: bottom center;
-				size: contain;
+			@media screen and (min-width: $midwidth) {
+				background: {
+					image: url(images/nav-swoosh.png);
+					repeat: no-repeat;
+					position: bottom center;
+					size: contain;
+				}
 			}
 		}
 	}

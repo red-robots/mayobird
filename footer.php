@@ -98,7 +98,7 @@ $treehouse_kitchen_link = get_field('treehouse_kitchen_link', 'option');
 				<img src="<?php bloginfo('template_url');?>/images/swoosh.png">
 			</div>
 
-			<section class="foot-col group-start">
+			<!-- <section class="foot-col group-start">
 				
 				<div class="img-center">
 					<h3 class="center">A PART OF</h3>
@@ -106,9 +106,9 @@ $treehouse_kitchen_link = get_field('treehouse_kitchen_link', 'option');
 						<a href="<?php echo $treehouse_kitchen_link; ?>">
 							<img alt="Tree House Kitchen" title="Tree House Kitchen" src="<?php bloginfo('template_url'); ?>/images/tree-house-kitchen.png">
 						</a>
-					</div><!-- roll over -->
-				</div>
-			</section>
+					</div>
+				</div> 
+			</section>-->
 			<div class="group-item">
 				<div class="img-summit rollover">
 					<a href="<?php echo $summit_room_link; ?>">
@@ -116,7 +116,7 @@ $treehouse_kitchen_link = get_field('treehouse_kitchen_link', 'option');
 					</a>
 				</div>
 			</div>
-			<div class="group-item ">
+			<!-- <div class="group-item ">
 				<div class="img-packhouse rollover">
 					<a href="<?php echo $packhouse_link; ?>">
 						<img alt="Packhouse" title="Packhouse" src="<?php bloginfo('template_url'); ?>/images/packhouse.png">
@@ -129,7 +129,7 @@ $treehouse_kitchen_link = get_field('treehouse_kitchen_link', 'option');
 						<img alt="Joe and Nosh" title="Joe and Nosh" src="<?php bloginfo('template_url'); ?>/images/joe-and-nosh.png">
 					</a>
 				</div>
-			</div>
+			</div> -->
 			
 		</div><!-- wrapper -->
 		<div class="creds">

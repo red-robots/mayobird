@@ -108,7 +108,7 @@ $treehouse_kitchen_link = get_field('treehouse_kitchen_link', 'option');
 						</a>
 					</div>
 				</div> 
-			</section>-->
+			</section>
 			<div class="group-item">
 				<div class="img-summit rollover">
 					<a href="<?php echo $summit_room_link; ?>">
@@ -116,6 +116,7 @@ $treehouse_kitchen_link = get_field('treehouse_kitchen_link', 'option');
 					</a>
 				</div>
 			</div>
+			-->
 			<!-- <div class="group-item ">
 				<div class="img-packhouse rollover">
 					<a href="<?php echo $packhouse_link; ?>">
